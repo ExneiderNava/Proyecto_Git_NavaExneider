@@ -1,3 +1,5 @@
+from funciones.registrarServicios import registrarServicios
+
 opcion = 1
 while (opcion != 5):
     print("BIENVENIDO A PhotoCampus")
@@ -6,20 +8,23 @@ while (opcion != 5):
     print("3. Eliminar Servicios")
     print("4. Ver todos los servicios")
     print("5. Salir")
-    opcion = int(input("Ingrese una opcion : "))
-    
-    match opcion:
-        case 1:
-            registrarServicios()
-        case 2:
-            editarServicios()
-        case 3:
-            eliminarServicios()
-        case 4:
-            verServicios()
-        case 5:
-            print("Hasta luego, que vuelvas pronto")
-            print("Saliendo......")
-            break
-        case _:
-            print("Opcion invalida, por favor comience de nuevo")
+    try:
+        opcion = int(input("Ingrese una opcion : "))
+            
+        match opcion:
+            case 1:
+                registrarServicios()
+            case 2:
+                editarServicios()
+            case 3:
+                eliminarServicios()
+            case 4:
+                verServicios()
+            case 5:
+                print("Hasta luego, que vuelvas pronto")
+                print("Saliendo......")
+                break
+            case _:
+                print("Opcion invalida, por favor ingrese un numero valido")
+    except ValueError:
+        print("Por favor ingrese un valor correcto")
