@@ -1,6 +1,6 @@
 Introducción al proyecto 
 proyecto desarrollado por: 
-carlos said perez gutierrez,
+carlos said perez gutierrez
 Hamilton Julian Quiroga Vera,
 Exneider Alfonso Nava Archila
 
