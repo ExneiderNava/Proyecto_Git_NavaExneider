@@ -4,5 +4,11 @@
         "precio": 2500,
         "tipo_evento": "fiesta",
         "horas_duracion": "40"
+    },
+    {
+        "nombre_paquete": "paquete",
+        "precio": 500,
+        "tipo_evento": "fiesta",
+        "horas_duracion": "40"
     }
 ]
