@@ -19,16 +19,18 @@ def registrarServicios():
     
     ruta = "archivos/Servicios.json"
     
-    with open(ruta, "r") as servicios:
-        try:
-            lista_servicios = json.load(servicios)
-        except json.JSONDecodeError:
-            lista_servicios = []
-            
+    try:
+        with open(ruta, "r") as servicios:
+            try:
+                lista_servicios = json.load(servicios)
+            except json.JSONDecodeError:
+                lista_servicios = []
+    except FileNotFoundError:
+        lista_servicios = []            
     lista_servicios.append(servicio)
     
     with open(ruta, "w") as archivo:
         json.dump(lista_servicios, archivo, indent=4)
         
-    precio("Servicio registrado exitosamente")
+    print("Servicio registrado exitosamente")
         

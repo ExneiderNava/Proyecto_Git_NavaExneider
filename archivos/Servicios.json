@@ -1,0 +1,8 @@
+[
+    {
+        "nombre_paquete": "paquete",
+        "precio": 2500,
+        "tipo_evento": "fiesta",
+        "horas_duracion": "40"
+    }
+]
