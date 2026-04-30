@@ -1,6 +1,6 @@
 Introducción al proyecto
 
-proyecto desarrollado por:
+proyecto desarrollado por:carlos said perez gutierrez
 Exneider Alfonso Nava Archila
 * Este es un proyecto llamado PhotoCampus donde vamos a desarrollar un programa para registrar y gestionar los servicios fotograficos disponibles
 
