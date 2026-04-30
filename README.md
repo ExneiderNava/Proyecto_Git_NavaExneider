@@ -1,11 +1,7 @@
-Introducción al proyecto
-
-<<<<<<< HEAD
+Introducción al proyecto 
 proyecto desarrollado por:carlos said perez gutierrez
-=======
 proyecto desarrollado por:
 Hamilton Julian Quiroga Vera,
->>>>>>> fb105f7aced7e42547041180c9133bb3bec243ca
 Exneider Alfonso Nava Archila
 
 * Este es un proyecto llamado PhotoCampus donde vamos a desarrollar un programa para registrar y gestionar los servicios fotograficos disponibles
