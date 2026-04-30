@@ -1,6 +1,6 @@
 import json
 
-def editarServicio():
+def editarServicios():
     ruta = "archivos/Servicios.json"
     try:
         with open(ruta, "r") as archivo:
