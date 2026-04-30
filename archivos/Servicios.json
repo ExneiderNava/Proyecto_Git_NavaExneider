@@ -1,0 +1,9 @@
+[
+    {
+        "id": "26",
+        "nombre_paquete": "paquete26",
+        "precio": 46500,
+        "tipo_evento": "graduacion",
+        "horas_duracion": "12"
+    }
+]
