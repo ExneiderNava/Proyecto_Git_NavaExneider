@@ -1,6 +1,7 @@
 Introducción al proyecto
 
 proyecto desarrollado por:
+Hamilton Julian Quiroga Vera
 Exneider Alfonso Nava Archila
 
 * Este es un proyecto llamado PhotoCampus donde vamos a desarrollar un programa para registrar y gestionar los servicios fotograficos disponibles
