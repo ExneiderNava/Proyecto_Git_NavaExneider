@@ -1,4 +1,7 @@
 Introducción al proyecto
+
+proyecto desarrollado por:
+Exneider Alfonso Nava Archila
 * Este es un proyecto llamado PhotoCampus donde vamos a desarrollar un programa para registrar y gestionar los servicios fotograficos disponibles
 
 debemos desarrollar las siguientes funcionalidad
