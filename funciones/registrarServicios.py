@@ -1,7 +1,7 @@
 import json
 def registrarServicios():
     print("Modulo para registrar servicios")
-    numero_paquete = input("Ingrese el id unico del paquete : ")
+    numero_paquete = int(input("Ingrese el id unico del paquete : "))
     nombre_paquete = input("Ingrese el nombre del paquete fotografico : ")
     try:
         precio = int(input("Ingrese el precio de paque : "))

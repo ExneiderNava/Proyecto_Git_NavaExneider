@@ -1,6 +1,7 @@
 from funciones.registrarServicios import registrarServicios
 from funciones.editarServicios import editarServicios
 from funciones.eliminarServicios import eliminarServicios
+from funciones.verServicios import verServicios
 
 opcion = 1
 while (opcion != 5):
