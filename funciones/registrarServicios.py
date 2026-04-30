@@ -8,7 +8,7 @@ def registrarServicios():
         print("El precio debe ser un numero")
         return
     tipo_evento = input("Para que tipo de evento es el paquete : ")
-    duracion = input("ingrese la duración estimada para este paquete en horas")
+    duracion = input("ingrese la duración estimada para este paquete en horas:")
     
     servicio = {
         "nombre_paquete" : nombre_paquete,
