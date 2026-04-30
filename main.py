@@ -1,4 +1,5 @@
 from funciones.registrarServicios import registrarServicios
+from funciones.editarServicios import editarServicios
 
 opcion = 1
 while (opcion != 5):
